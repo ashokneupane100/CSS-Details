@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ol li:nth-child(odd) {
+  margin: 1px;
+  font-weight: bold;
+  background-color: blue;
+  color: rgb(102, 98, 98);
+}
+
+ol {
+  list-style-type: upper-roman;
+  padding: 0;
+  color: black;
+}
+
+ul li:nth-child(odd) {
+  margin: 1px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+}
+
+ul ::marker {
+  content: "🌏";
+  color: blue;
+  font-size: 3rem;
+  margin-right: 10px;
+}
